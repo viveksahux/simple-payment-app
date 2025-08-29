@@ -38,25 +38,27 @@ A modern, full-stack payment application built with **React**, **Express**, **Mo
 - CORS
 
 ## 📁 Project Structure
+```plaintext
 simple-payment-app/
-├── frontend/ # React frontend
-│ ├── public/
-│ ├── src/
-│ │ ├── components/ # Reusable UI components
-│ │ ├── pages/ # Page components
-│ │ ├── lib/ # Utility functions
-│ │ ├── main/ # Entry Point 
-│ │ └── styles/ # CSS/Tailwind files
-│ ├── package.json
-│ └── vite.config.js
-├── backend/ # Express backend
-│ ├── db/ # MongoDB models
-│ ├── routes/ # API routes
-│ ├── middleware/ # Custom middleware
-│ ├── config/ # Database and app config
-│ ├── package.json
-│ └── index.js
+├── frontend/               # React frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── components/     # Reusable UI components
+│   │   ├── pages/          # Page components
+│   │   ├── lib/            # Utility functions
+│   │   ├── main/           # Entry Point
+│   │   └── styles/         # CSS/Tailwind files
+│   ├── package.json
+│   └── vite.config.js
+├── backend/                # Express backend
+│   ├── db/                 # MongoDB models
+│   ├── routes/             # API routes
+│   ├── middleware/         # Custom middleware
+│   ├── config/             # Database and app config
+│   ├── package.json
+│   └── index.js
 └── README.md
+```
 
 ## 🚀 Getting Started
 
@@ -113,14 +115,14 @@ simple-payment-app/
     Backend API: http://localhost:5000
 
 ## API Endpoints (Examples)
-    | Method | Endpoint                   | Description             | Authentication |
-    |--------|----------------------------|-------------------------|----------------|
-    | POST   | `/api/v1/user/signup`      | User registration       | Public         |
-    | POST   | `/api/v1/user/signin`      | User login              | Public         |
-    | POST   | `/api/v1/user/users`       | Query to get users      | Required       |
-    | POST   | `/api/v1/user/modifypass`  | Modify user password    | Required       |
-    | GET    | `/api/payments/balance`    | Get account balance     | Required       |
-    | POST   | `/api/payments/transfer`   | Transfer amount         | Required       |
+| Method | Endpoint                   | Description             | Authentication |
+|--------|----------------------------|-------------------------|----------------|
+| POST   | `/api/v1/user/signup`      | User registration       | Public         |
+| POST   | `/api/v1/user/signin`      | User login              | Public         |
+| POST   | `/api/v1/user/users`       | Query to get users      | Required       |
+| POST   | `/api/v1/user/modifypass`  | Modify user password    | Required       |
+| GET    | `/api/payments/balance`    | Get account balance     | Required       |
+| POST   | `/api/payments/transfer`   | Transfer amount         | Required       |
 
 ## Security Features
 -Passwords hashed with bcryptjs
