@@ -2,11 +2,11 @@
 
 A modern, full-stack payment application built with **React**, **Express**, **MongoDB**, and **JWT authentication**. It allows users to register, sign in, and securely access payment features, making it a great starting point for fintech projects or full-stack learning.
 
-![React](https://img.shields.io/badge/React-18.2.0-blue)
-![Express](https://img.shields.io/badge/Express-4.18.2-green)
-![MongoDB](https://img.shields.io/badge/MongoDB-5.0-success)
+![React](https://img.shields.io/badge/React-blue)
+![Express](https://img.shields.io/badge/Express-green)
+![MongoDB](https://img.shields.io/badge/MongoDB-success)
 ![JWT](https://img.shields.io/badge/JWT-Authentication-orange)
-![Vite](https://img.shields.io/badge/Vite-5.2.0-purple)
+![Vite](https://img.shields.io/badge/Vite-purple)
 ![Zod](https://img.shields.io/badge/Zod-Validation-yellow)
 ![shadcn/ui](https://img.shields.io/badge/ShadCN-UI%20Components-9cf)
 
