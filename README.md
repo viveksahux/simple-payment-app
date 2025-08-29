@@ -1,6 +1,6 @@
 # 💳 Simple Payment App
 
-A modern, full-stack payment application built with **React**, **Express**, **MongoDB**, and **JWT authentication**. It allows users to register, sign in, and securely access payment features, making it a great starting point for fintech projects or full-stack learning.
+A simple full-stack payment app built with React, Express, MongoDB, and JWT — just for fun and learning! It lets users sign up, log in, and (pretend to) send money. Great little project to practice building real-world features like auth, protected routes, and API handling from scratch.
 
 ![React](https://img.shields.io/badge/React-blue)
 ![Express](https://img.shields.io/badge/Express-green)
