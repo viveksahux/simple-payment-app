@@ -85,7 +85,7 @@ simple-payment-app/
     cd ../frontend
     npm install
     ```
-4. **Environment Configuration**
+4. **Environment Configuration**  
     Create a .env file in the backend directory:
     ```
     PORT=5000
@@ -98,7 +98,7 @@ simple-payment-app/
     VITE_API_BASE_URL=http://localhost:5000/api
     VITE_APP_NAME=paymentApp
     ```
-5. **Start the Application**
+5. **Start the Application: **  
     Start the backend server:
     ```
     cd server
@@ -109,7 +109,7 @@ simple-payment-app/
     cd frontend
     npm run dev
     ```
-6. **Access the Application**
+6. **Access the Application**  
     Open your browser and navigate to:
     ```
     Frontend: http://localhost:3000
