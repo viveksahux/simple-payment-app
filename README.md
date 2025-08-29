@@ -111,8 +111,10 @@ simple-payment-app/
     ```
 6. **Access the Application**
     Open your browser and navigate to:
+    ```
     Frontend: http://localhost:3000
     Backend API: http://localhost:5000
+    ```
 
 ## API Endpoints (Examples)
 | Method | Endpoint                   | Description             | Authentication |
