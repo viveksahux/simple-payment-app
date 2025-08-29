@@ -58,7 +58,7 @@ router.post('/signin',signinValidate, async(req,res)=>{
     const payload = {userID,email}
     const token = jwt.sign(payload,JWT_SECRET, { expiresIn: '24h' })
     // 4. Send token
-    res.json({ message : "Signin Succesful", token : token });
+    res.json({ message : "Signin Successful", token : token });
 
   } catch (err) {
     console.error('Signin error:', err);
@@ -74,7 +74,7 @@ router.put('/modifypass', verifyToken, signinValidate, async (req,res)=>{
     { _id: req.userId },     // Filter
     { password: hashedPassword }  // Fields to update
     );
-    res.status(200).json({message:"Password Updated Succesfully"})
+    res.status(200).json({message:"Password Updated Successfully"})
   }catch (err){
     res.status(400).json({message:"Error Updating the Password", error: err})
   }
@@ -92,10 +92,11 @@ router.get('/users', verifyToken, async(req,res)=>{
 
   res.status(200).json({
     user: users.map(user=>({
+      _id : user._id,
       username : user.username,
       firstname: user.firstname,
       lastname: user.lastname,
-      _id : user._id
+      email : user.email,
     }))
   })
 });
