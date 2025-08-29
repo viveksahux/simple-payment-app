@@ -80,7 +80,7 @@ router.put('/modifypass', verifyToken, signinValidate, async (req,res)=>{
   }
 })
 
-router.get('/bulk', verifyToken, async(req,res)=>{
+router.get('/users', verifyToken, async(req,res)=>{
   const filter = req.query.filter || "";
   const users = await User.find({
     $or:[{
