@@ -127,20 +127,20 @@ simple-payment-app/
 | POST   | `/api/payments/transfer`   | Transfer amount         | Required       |
 
 ## Security Features
--Passwords hashed with bcryptjs
--JWT tokens for authentication
--Protected API routes
--Input validation and sanitization
--CORS configuration
+- Passwords hashed with bcryptjs
+- JWT tokens for authentication
+- Protected API routes
+- Input validation and sanitization
+- CORS configuration
 
 ## 🚀 Future Enhancements (For Learning & Fun)
 
--Transaction History
--Two-Factor Authentication (2FA)
--Switch to PostgreSQL
--Email Integration
--Dark Mode
--Mobile Responsiveness
--User Avatars –
+- Transaction History
+- Two-Factor Authentication (2FA)
+- Switch to PostgreSQL
+- Email Integration
+- Dark Mode
+- Mobile Responsiveness
+- User Avatars –
 
 > This project is just for fun and learning, so future features will be added based on curiosity and experimentation 😄
