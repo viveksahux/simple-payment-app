@@ -72,7 +72,7 @@ simple-payment-app/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/simple-payment-app.git
+   git clone https://github.com/viveksahux/simple-payment-app.git
    cd simple-payment-app
     ```
 2. **Setup Backend**
@@ -88,7 +88,7 @@ simple-payment-app/
 4. **Environment Configuration**  
     Create a .env file in the backend directory:
     ```
-    PORT=5000
+    PORT=your_prefered_port || 5000
     MONGODB_URI=your_mongodb_connection_string
     JWT_SECRET=your_jwt_secret_key
     SALT_ROUNDS=your_preferred_salt_rounds_value
